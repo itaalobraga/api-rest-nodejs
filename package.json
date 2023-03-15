@@ -1,9 +1,13 @@
 {
+  "engines": {
+    "node": ">=18"
+  },
   "dependencies": {
     "@fastify/cookie": "^8.3.0",
     "dotenv": "^16.0.3",
     "fastify": "^4.13.0",
     "knex": "^2.4.2",
+    "pg": "^8.10.0",
     "sqlite3": "^5.1.4",
     "zod": "^3.21.4"
   },
