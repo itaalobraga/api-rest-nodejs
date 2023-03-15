@@ -1,0 +1,17 @@
+{
+  "extends": ["@rocketseat/eslint-config/node", "prettier"],
+  "plugins": ["prettier"],
+  "rules": {
+    "prettier/prettier": [
+      "error",
+      {
+        "singleQuote": false,
+        "parser": "flow",
+        "semicolons": true,
+        "printWidth": 90,
+        "endOfLine": "crlf"
+      }
+    ]
+  },
+  "ignorePatterns": ["./src/@types/knex.d.ts"]
+}
